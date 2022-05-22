@@ -1,16 +1,11 @@
-### Hi there 👋
+class AboutMe:
+    def __init__(self, name, age, work):
+        self.name = name
+        self.age = age
+        self.work = work
+    
+    def __repr__(self):
+        return f'AboutMe({self.name}, {self.age}, {self.work})'
 
-<!--
-**derivaneuclides/derivaneuclides** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Derivan= AboutMe('Derivan Euclides dos Santos', 33, 'Python Developer')
+print(Derivan)
